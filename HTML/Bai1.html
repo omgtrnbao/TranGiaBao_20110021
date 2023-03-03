@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran Gia Bao</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 700px;
+            width: 1089px;
+            background-color: beige;
+            border: 1px solid turquoise;
+        }
+        
+        header {
+            height: 120px;
+            width: 1089px;
+            background-color: lemonchiffon;
+            position: relative;
+        }
+        
+        .top-menu li {
+            height: 45px;
+            width: 120px;
+            border-radius: 10px;
+            border: 2.5px dotted crimson;
+            background-color: rgb(94, 223, 158);
+            display: inline-table;
+            line-height: 45px;
+            text-indent: 20px;
+            list-style: none;
+            position: absolute;
+            top: 50px;
+            left: 400px;
+        }
+        
+        .top-menu li:first-child {
+            top: 50px;
+            left: 380px;
+        }
+        
+        .top-menu li:last-child {
+            top: 50px;
+            left: 900px;
+        }
+        
+        .top-menu li:nth-child(4) {
+            top: 50px;
+            left: 770px;
+        }
+        
+        .top-menu li:nth-child(3) {
+            top: 50px;
+            left: 640px;
+        }
+        
+        .top-menu li:nth-child(2) {
+            top: 50px;
+            left: 510px;
+        }
+        
+        nav {
+            height: 45px;
+            width: 100%;
+            background-color: lightpink;
+        }
+        
+        .content {
+            height: 400px;
+            width: 100%;
+            background-color: lightskyblue;
+        }
+        
+        #asl {
+            height: 100%;
+            width: 30%;
+            background-color: darkseagreen;
+            float: left;
+        }
+        
+        #asr {
+            height: 100%;
+            width: 30%;
+            background-color: hotpink;
+            float: left;
+        }
+        
+        section {
+            height: 100%;
+            width: 40%;
+            background-color: mistyrose;
+            float: left;
+        }
+        
+        footer {
+            height: 135px;
+            width: 100%;
+            background-color: darksalmon;
+        }
+        
+        .menu li {
+            height: 45px;
+            width: 120px;
+            background-color: rgb(94, 223, 158);
+            display: inline-table;
+            line-height: 45px;
+            text-indent: 20px;
+            list-style: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: rgb(219, 126, 228);
+            font-weight: bold;
+        }
+        
+        .menu li:hover {
+            background-color: rgb(232, 250, 151);
+        }
+        
+        li:hover>a {
+            color: salmon;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Dau trang
+            <ul class="top-menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside id="asl">
+                LEFT
+            </aside>
+            <section>
+                MID
+            </section>
+            <aside id="asr">
+                RIGHT
+            </aside>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
